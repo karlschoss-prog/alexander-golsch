@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter as BrowserRouter, Routes, Route } from 'react-router-dom'
 import { hasActiveBanner } from './vacation.config.js'
 import Nav from './components/Nav'
 import VacationBanner from './components/VacationBanner'
