@@ -45,7 +45,7 @@ function Home() {
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/alexander-golsch">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/impressum" element={<Impressum />} />
