@@ -44,7 +44,7 @@ export default function Contact() {
                 Termin per WhatsApp
               </p>
               <p className="font-body text-white/65 text-sm">
-                0170 3549410 · Antwort zeitnah
+                0170 3549410
               </p>
             </div>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeOpacity="0.4" className="flex-shrink-0">

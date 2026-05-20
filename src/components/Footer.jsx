@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -23,19 +25,19 @@ export default function Footer() {
               © {year}
             </span>
             <span className="text-white/15 text-xs">·</span>
-            <a
-              href="/impressum"
+            <Link
+              to="/impressum"
               className="font-body text-xs text-white/40 hover:text-white/70 transition-colors duration-150"
             >
               Impressum
-            </a>
+            </Link>
             <span className="text-white/15 text-xs">·</span>
-            <a
-              href="/datenschutz"
+            <Link
+              to="/datenschutz"
               className="font-body text-xs text-white/40 hover:text-white/70 transition-colors duration-150"
             >
               Datenschutz
-            </a>
+            </Link>
           </div>
 
         </div>
