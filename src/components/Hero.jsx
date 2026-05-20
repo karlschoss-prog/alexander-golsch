@@ -11,7 +11,7 @@ export default function Hero() {
     >
       {/* Hintergrundbild — vollflächig */}
       <img
-        src="/alexander-behandlung.png"
+        src={`${import.meta.env.BASE_URL}alexander-behandlung.png`}
         alt=""
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover object-center"

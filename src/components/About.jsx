@@ -23,7 +23,7 @@ export default function About() {
               style={{ aspectRatio: '3/4', maxWidth: '400px' }}
             >
               <img
-                src="/alexander.jpg"
+                src={`${import.meta.env.BASE_URL}alexander.jpg`}
                 alt="Alexander Golsch, Physiotherapeut in Braunschweig"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: 'center 15%' }}
